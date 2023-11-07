@@ -11,7 +11,7 @@ dockerを使用して、PostgreSQL、MySQLの環境構築を行う
 <br><br>
 
 
-## 構築の流れ
+## MySQL 構築の流れ
 **MySQL**　※CMDでも可能<br>
 イメージの入手
 ```bash
@@ -28,4 +28,11 @@ docker container run -p 3306:3306 --name test-mysql -v test_mysql_valume:/var/li
 bashで起動
 ```bash
 docker exec -it test-mysql bash
+```
+
+## PostgreSQL 構築の流れ
+**PostgreSQL**　※CMDでも可能<br>
+イメージの入手
+```bash
+docker image pull mysql:latest
 ```
