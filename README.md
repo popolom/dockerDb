@@ -34,5 +34,5 @@ docker exec -it test-mysql bash
 **PostgreSQL**　※CMDでも可能<br>
 イメージの入手
 ```bash
-docker image pull mysql:latest
+docker pull postgres
 ```
